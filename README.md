@@ -1,8 +1,10 @@
 # most-people.github.io
 
-MOST PEOPLE 的组织介绍和宣言已经迁移到 `most.red`：
+本仓库用于将 `https://most-people.github.io/` 的访问直接跳转到
+`https://most.red/` 首页。
 
-- 关于我们：<https://most.red/about/>
-- 宣言：<https://most.red/manifesto/>
+所有旧路径统一通过 `404.html` 跳到首页，不再维护旧页面或逐路径映射；
+旧查询参数与锚点不传递到新站。浏览器使用 JavaScript 立即跳转，
+禁用 JavaScript 时由零秒刷新兜底，页面同时保留手动访问链接。
 
-本仓库仅用于将原有 GitHub Pages 地址跳转到新站，旧提交历史继续保留。
+实际内容统一在 `most.red` 仓库维护。
